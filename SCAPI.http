@@ -1,0 +1,6 @@
+@SCAPI_HostAddress = http://localhost:5099
+
+GET {{SCAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

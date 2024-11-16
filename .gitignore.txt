@@ -1,0 +1,45 @@
+# Archivos de usuario y configuración local de Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de la carpeta bin y obj (generados al compilar)
+bin/
+obj/
+
+# Archivos de paquetes NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Archivos generados por Rider o IDEs similares
+.idea/
+*.sln.iml
+
+# Archivos temporales y de caché
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Archivos de publicación y construcción
+out/
+.publish/
+
+# Archivos de seguridad
+*.pfx
+*.key
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de servidor local
+Properties/launchSettings.json
+
+# Dependencias externas
+node_modules/
+wwwroot/lib/
